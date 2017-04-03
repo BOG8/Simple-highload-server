@@ -10,7 +10,7 @@ import java.io.FileNotFoundException;
 
 public class FileSystem {
     public static final String INDEX_DIR = "/index.html";
-    public static final String ROOT_DIR = "DOCUMENT_ROOT";
+    public static String ROOT_DIR = "DOCUMENT_ROOT";
 
     private File file;
     private boolean isDir = false;

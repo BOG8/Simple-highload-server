@@ -60,7 +60,6 @@ public class Response {
         buf.append("Date:").append(' ').append(date).append('\n');
         buf.append("Server:").append(' ').append(SERVER).append('\n');
         buf.append("Connection:").append(' ').append(CONNECTION).append("\r\n\r\n");
-        System.out.println(buf.toString());
         out.write(buf.toString().getBytes());
     }
 
