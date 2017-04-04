@@ -1,0 +1,5 @@
+#!/bin/bash
+mvn clean package
+cd target/
+mv httpd.jar ..
+cd ..
